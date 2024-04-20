@@ -67,16 +67,16 @@ Since the project focuses on image classification, three key models were employe
 
 | Dataset            | Image Variation | Models      | Accuracy |
 |--------------------|-----------------|-------------|----------|
-| Our collected      | Grayscale       | CNN         | 47%      |
+| Our collected dataset     | Grayscale       | CNN         | 47%      |
 |                    |                 | InceptionV3 | 67%      |
 |                    |                 | ResNet50    | 68%      |
-| Our collected      | Coloured        | CNN         | 41%      |
+| Our collected dataset     | Coloured        | CNN         | 41%      |
 |                    |                 | InceptionV3 | 67%      |
 |                    |                 | ResNet50    | 70%      |
-| Kaggle             | Grayscale       | CNN         | 49%      |
+| Kaggle dataset          | Grayscale       | CNN         | 49%      |
 |                    |                 | InceptionV3 | 75%      |
 |                    |                 | ResNet50    | 79%      |
-| Kaggle             | Coloured        | CNN         | 66%      |
+| Kaggle dataset         | Coloured        | CNN         | 66%      |
 |                    |                 | InceptionV3 | 74%      |
 |                    |                 | ResNet50    | 80%      |
 
