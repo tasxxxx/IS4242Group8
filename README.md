@@ -11,9 +11,13 @@ Python <br/>
 Jupyter Notebook
 
 ## Getting Started
-The files labelled_images_name consists of the json file for the raw images from each member, which was labeled on Roboflow and saved collectively in data_preprocessing_image_classification file.
+The data_preprocessing_image_classification folder contains all the images captured by each member, along with the JSON file containing annotations produced by Roboflow.
 
-The kaggle_data file consists of the images from kaggle dataset, that was used in comparison against our collected images.
+The raw_kaggle_data folder contains the original images sourced from Kaggle, which were utilized for preprocessing and augmentation.
+
+The kaggle_data folder consists of the images from kaggle dataset that are coloured and grayscaled, that was used in comparison against our collected images.
+
+The original_images folder contains images obtained from our collected dataset, organized into their respective categories and renamed accordingly.
 
 The our_dataset file is the final file that consisted of the train, validation and test split of the data post data preprocessing and augmentation. It is further split into the individual class based on the folder name. 
 
