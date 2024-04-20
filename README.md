@@ -11,13 +11,13 @@ Python <br/>
 Jupyter Notebook
 
 ## Getting Started
-The files labelled_iamges consists of the json file for the raw images, which was labeled on Roboflow and saved collectively in data_preprocessing_image_classification file.
+The files labelled_images_name consists of the json file for the raw images from each member, which was labeled on Roboflow and saved collectively in data_preprocessing_image_classification file.
 
 The kaggle_data file consists of the images from kaggle dataset, that was used in comparison against our collected images.
 
 The our_dataset file is the final file that consisted of the train, validation and test split of the data post data preprocessing and augmentation. It is further split into the individual class based on the folder name. 
 
-The different ipynb are labelled according to the model used, as well as the dataset and image variation (coloured or grayscale).
+The various .ipynbs are labelled according to the model used, as well as the dataset and image variation (coloured or grayscale).
 
 ## Libraries Used
 json <br/>
