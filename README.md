@@ -70,10 +70,10 @@ Since the project focuses on image classification, three key models were employe
 |                    |                 | InceptionV3 | 67%      |
 |                    |                 | ResNet50    | 70%      |
 | Kaggle             | Grayscale       | CNN         | 49%      |
-| dataset            |                 | InceptionV3 | 75%      |
+|                    |                 | InceptionV3 | 75%      |
 |                    |                 | ResNet50    | 79%      |
 | Kaggle             | Coloured        | CNN         | 66%      |
-| dataset            |                 | InceptionV3 | 74%      |
+|                    |                 | InceptionV3 | 74%      |
 |                    |                 | ResNet50    | 80%      |
 
 InceptionV3 and ResNet-50 consistently outperformed the baseline CNN model in accuracy on both our collected dataset and the Kaggle dataset. 
